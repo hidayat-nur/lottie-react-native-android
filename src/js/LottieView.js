@@ -6,10 +6,10 @@ import {
   View,
   Platform,
   StyleSheet,
-  ViewPropTypes,
 } from 'react-native';
 import SafeModule from 'react-native-safe-module';
 import PropTypes from 'prop-types';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types'
 
 const NativeLottieView = SafeModule.component({
   viewName: 'LottieAnimationView',
